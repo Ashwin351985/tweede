@@ -1,1 +1,40 @@
-hier is iets
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<Script>
+
+        
+
+            function klikopknop1(){
+                document.getElementById("box1").innerHTML +="U heeft op knop A geklikt";
+            }    
+            function klikopknop2(){
+                document.getElementById("box2").innerHTML +="U heeft op knop B geklikt";
+            }
+            function klikopknop3(){
+                document.getElementById("box3").innerHTML +="U heeft op knop C geklikt";
+            }
+            function klikopknop4(){
+                document.getElementById("box4").innerHTML +="U heeft op knop D geklikt";
+            }
+        
+
+</Script>
+
+</head>
+<body>
+
+<input type="button" value= "A" onclick="klikopknop1()">
+<div id="box1"></div>
+<input type="button" value="B" onclick="klikopknop2()">
+<div id="box2"></div>
+<input type="button" value="C" onclick="klikopknop3()">
+<div id="box3"></div>
+<input type="button" value="D" onclick="klikopknop4()">
+<div id="box4"></div>
+    
+</body>
+</html>
